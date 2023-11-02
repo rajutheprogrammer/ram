@@ -1,22 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title></title>
-  <style>
-    body {
-      margin: 0;
-      overflow: hidden; /* Hide page scrollbars */
-    }
-    canvas {
-      display: block;
-    }
-  </style>
-</head>
-<body>
-  <canvas id="gameCanvas" width="400" height="300"></canvas>
-  <script>
-    const canvas = document.getElementById("gameCanvas");
+<canvas id="gameCanvas" width="400" height="300"></canvas>
+<script>const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");
 
 let texts = []; // An array to store text elements
@@ -76,7 +59,4 @@ function drawCanvas() {
 }
 
 drawCanvas();
-
   </script>
-</body>
-</html>
